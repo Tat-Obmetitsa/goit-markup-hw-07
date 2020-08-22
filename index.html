@@ -71,57 +71,6 @@
 				</h1>
 				<button type="button" class="banner-button button" data-modal-open>Заказать услугу</button>
 			</section>
-			<!-- Модальное окно -->
-			<div class="backdrop is-hidden" data-modal>
-				<div class="modal">
-					<button type="button" class="modal-close" data-modal-close>
-						<svg aria-label="кнопка закрытия" class="modal-close-button" height="11" width="11">
-							<use href="./images/sprite.svg#cross"></use>
-						</svg>
-					</button>
-					<form method="POST" class="form" autocomplete="off">
-						<h2>Оставьте свои данные, мы вам перезвоним</h2>
-						<label class="form-field">
-							<span class="modal-label">Имя</span>
-							<input type="text" name="name" id="name" class="modal-input" />
-							<svg aria-label="человек" class="modal-icon" height="18" width="18">
-								<use href="./images/sprite.svg#name"></use>
-							</svg>
-						</label>
-						<label class="form-field">
-							<span class="modal-label">Телефон</span>
-							<input type="tel" name="tel" class="modal-input" />
-							<svg aria-label="телефонная трубка" class="modal-icon" height="18" width="18">
-								<use href="./images/sprite.svg#tel"></use>
-							</svg>
-						</label>
-						<label class="form-field">
-							<span class="modal-label">Почта</span>
-							<input type="email" name="email" class="modal-input" />
-							<svg aria-label="конверт" class="modal-icon" height="18" width="18">
-								<use href="./images/sprite.svg#mail"></use>
-							</svg>
-						</label>
-						<label class="form-field">
-							<span class="modal-label">Комментарий</span>
-							<textarea name="comment" placeholder="Введите текст" class="modal-input"></textarea>
-						</label>
-						<label class="checkbox-field">
-							<input type="checkbox" name="policy" value="agree" class="checkbox" />
-							<span class="icon-checkbox">
-								<svg aria-label="галочка" height="15" width="16">
-									<use href="./images/sprite.svg#tick"></use>
-								</svg>
-							</span>
-							<span class="checkbox-label">
-								Соглашаюсь с рассылкой и принимаю
-								<a href="#" class="checkbox-label underlined">Условия договора</a>
-							</span>
-						</label>
-						<button type="submit" class="banner-button button">Отправить</button>
-					</form>
-				</div>
-			</div>
 			<!-- Под баннером -->
 			<section class="benefits section">
 				<div class="container">
@@ -587,6 +536,57 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Модальное окно -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button type="button" class="modal-close" data-modal-close>
+					<svg aria-label="кнопка закрытия" class="modal-close-button" height="11" width="11">
+						<use href="./images/sprite.svg#cross"></use>
+					</svg>
+				</button>
+				<form method="POST" class="form" autocomplete="off">
+					<h2>Оставьте свои данные, мы вам перезвоним</h2>
+					<label class="form-field">
+						<span class="modal-label">Имя</span>
+						<input type="text" name="name" id="name" class="modal-input" />
+						<svg aria-label="человек" class="modal-icon" height="18" width="18">
+							<use href="./images/sprite.svg#name"></use>
+						</svg>
+					</label>
+					<label class="form-field">
+						<span class="modal-label">Телефон</span>
+						<input type="tel" name="tel" class="modal-input" />
+						<svg aria-label="телефонная трубка" class="modal-icon" height="18" width="18">
+							<use href="./images/sprite.svg#tel"></use>
+						</svg>
+					</label>
+					<label class="form-field">
+						<span class="modal-label">Почта</span>
+						<input type="email" name="email" class="modal-input" />
+						<svg aria-label="конверт" class="modal-icon" height="18" width="18">
+							<use href="./images/sprite.svg#mail"></use>
+						</svg>
+					</label>
+					<label class="form-field">
+						<span class="modal-label">Комментарий</span>
+						<textarea name="comment" placeholder="Введите текст" class="modal-input"></textarea>
+					</label>
+					<label class="checkbox-field">
+						<input type="checkbox" name="policy" value="agree" class="checkbox" />
+						<span class="icon-checkbox">
+							<svg aria-label="галочка" height="15" width="16">
+								<use href="./images/sprite.svg#tick"></use>
+							</svg>
+						</span>
+						<span class="checkbox-label">
+							Соглашаюсь с рассылкой и принимаю
+							<a href="#" class="checkbox-label underlined">Условия договора</a>
+						</span>
+					</label>
+					<button type="submit" class="banner-button button">Отправить</button>
+				</form>
+			</div>
+		</div>
 		<script src="./js/modal.js"></script>
 	</body>
 </html>
