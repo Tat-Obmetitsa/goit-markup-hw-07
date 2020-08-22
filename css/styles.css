@@ -83,6 +83,7 @@ img {
 .backdrop.is-hidden {
 	opacity: 0;
 	pointer-events: none;
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden .modal {
 	transform: translate(-50%, -50%) scale(1.2);
@@ -202,7 +203,6 @@ img {
 	margin: -1px;
 	padding: 0;
 	border: 0;
-	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-field {
 	display: flex;
@@ -218,14 +218,13 @@ img {
 	margin-right: 8px;
 	border: 2px solid var(--primary-text-color);
 	border-radius: 2px;
-	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	background-size: contain;
 	background-origin: border-box;
 	fill: transparent;
 }
 
 .checkbox:checked + .icon-checkbox {
-	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	border: none;
 	background-color: var(--accent-text-color);
 	fill: white;
