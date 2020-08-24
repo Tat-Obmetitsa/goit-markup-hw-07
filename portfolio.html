@@ -5,12 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Portfolio</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./css/normalize.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/portfolio.min.css" />
 	</head>
 	<body>
 		<!-- Шапка -->
@@ -42,13 +37,7 @@
 						<ul class="head-contacts list">
 							<li class="contacts-item mail">
 								<a href="mailto:info@devstudio.com" class="link">
-									<svg
-										aria-label="конверт"
-										class="envelope-icon"
-										height="11.2"
-										width="16"
-										aria-label="Электронная почта"
-									>
+									<svg class="icon-envelope" height="11.2" width="16" aria-label="Электронная почта">
 										<use href="./images/sprite.svg#envelope"></use>
 									</svg>
 									info@devstudio.com
@@ -56,7 +45,7 @@
 							</li>
 							<li class="contacts-item tel">
 								<a href="tel:+380961111111" class="link">
-									<svg aria-label="телефон" class="phone-icon" height="15" width="10" aria-label="Номер телефона">
+									<svg class="icon-phone" height="15" width="10" aria-label="Номер телефона">
 										<use href="./images/sprite.svg#smartphone"></use>
 									</svg>
 									+38 096 111 11 11
@@ -88,7 +77,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/laptop.jpg" alt="Ноутбук" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -110,7 +99,7 @@
 											height="294"
 										/>
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -127,7 +116,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/seafood.jpg" alt="Постер ресторана" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -144,7 +133,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/headphones.jpg" alt="Наушники" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -161,7 +150,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/boxes.jpg" alt="Две коробки" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -178,7 +167,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/screen.jpg" alt="Монитор" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -195,7 +184,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/magazine.jpg" alt="Журнал" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -212,7 +201,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/labe.jpg" alt="Бирка" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -229,7 +218,7 @@
 									<div class="cards-thumb">
 										<img src="./images/portfolio-images/business-laptop.jpg" alt="Ноутбук" width="370" height="294" />
 										<div class="cards-overlay">
-											<p class="thumb-text">
+											<p class="cards-thumb-text">
 												Технокряк это современная площадка распространения коронавируса. Компании используют эту
 												платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
 											</p>
@@ -332,9 +321,9 @@
 						<label class="email-item">
 							<input type="email" class="footer-input" name="email" placeholder="E-mail" />
 							<button type="submit" class="button">
-								<a href="https://www.twitter.com" class="footer-button-link" target="_blank" rel="noopener noreferrer">
+								<a href="https://www.twitter.com" class="button-footer-link" target="_blank" rel="noopener noreferrer">
 									Подписаться
-									<svg class="twitter-button" height="24" width="24">
+									<svg class="button-twitter" height="24" width="24">
 										<use href="./images/sprite.svg#button-icon"></use>
 									</svg>
 								</a>
