@@ -11,7 +11,8 @@
 	}
 	&:focus,
 	&:hover {
-		box-shadow: 0px 1px 1px $team-shadow-third-color, 0px 4px 4px $cards-shadow-second-color, $cards-shadow-third-color;
+		box-shadow: 0px 1px 1px $team-shadow-third-color, 0px 4px 4px $cards-shadow-second-color,
+			1px 4px 6px $cards-shadow-third-color;
 	}
 	&-list {
 		@extend .list;
@@ -51,8 +52,8 @@
 		transform: translate(0);
 		opacity: 1;
 	}
-	&:hover .thumb-text,
-	&:focus .thumb-text {
+	&:hover .cards-thumb-text,
+	&:focus .cards-thumb-text {
 		opacity: 1;
 	}
 	& .header {

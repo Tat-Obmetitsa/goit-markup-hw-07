@@ -446,8 +446,6 @@ template {
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   width: 100%;
   height: 40px;
@@ -480,6 +478,8 @@ template {
   position: absolute;
   top: 50%;
   left: 14px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: inline-block;
@@ -590,6 +590,8 @@ template {
 }
 
 .checkbox:checked + .checkbox-icon {
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   background-color: #2196f3;
   fill: #ffffff;
@@ -1016,8 +1018,8 @@ template {
 }
 
 .cards:focus, .cards:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .cards-list {
@@ -1083,8 +1085,8 @@ template {
   opacity: 1;
 }
 
-.cards:hover .thumb-text,
-.cards:focus .thumb-text {
+.cards:hover .cards-thumb-text,
+.cards:focus .cards-thumb-text {
   opacity: 1;
 }
 
