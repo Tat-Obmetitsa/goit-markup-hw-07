@@ -66,9 +66,11 @@
 	}
 	&-text {
 		@include bordered($cards-border-color);
-		@include fonts(16px, 400);
 		border-top: none;
 		padding: 20px 24px;
+	}
+	& .text {
+		@include fonts(16px, 400);
 		margin: 0px;
 		color: $secondary-text-color;
 		line-height: 1.88;

@@ -347,13 +347,13 @@ template {
   letter-spacing: 0.06em;
 }
 
-.button .footer-button-link:hover, .modal .banner-button .footer-button-link:hover {
-  color: #ffffff;
-}
-
 .button-twitter {
   margin-left: 10px;
   vertical-align: middle;
+}
+
+.button > a:hover, .modal .banner-button > a:hover {
+  color: #ffffff;
 }
 
 .modal .banner-button {
@@ -878,6 +878,7 @@ template {
   margin-bottom: 9px;
   color: #ffffff;
   line-height: 1.71;
+  font-style: normal;
   text-decoration: none;
 }
 
@@ -887,6 +888,7 @@ template {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
   text-decoration: none;
+  font-style: normal;
 }
 
 .address-list {

@@ -45,12 +45,12 @@
 		line-height: 1.9;
 		letter-spacing: 0.06em;
 	}
-	& .footer-button-link:hover {
-		color: $white-text-color;
-	}
 	&-twitter {
 		margin-left: 10px;
 		vertical-align: middle;
+	}
+	& > a:hover {
+		color: $white-text-color;
 	}
 }
 // Modal buttons

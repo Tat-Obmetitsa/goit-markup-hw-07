@@ -28,18 +28,20 @@
 	margin-bottom: 9px;
 	color: $white-text-color;
 	line-height: 1.71;
+	font-style: normal;
 	text-decoration: none;
 	&-text {
 		@include fonts(14px, 400);
 		color: $footer-rgba-color;
 		line-height: 1.71;
 		text-decoration: none;
+		font-style: normal;
 	}
-	&-list {
-		margin-top: 20px;
-		& > span:not(:last-child) {
-			margin-bottom: 9px;
-		}
+}
+.address-list {
+	margin-top: 20px;
+	& > span:not(:last-child) {
+		margin-bottom: 9px;
 	}
 }
 // Footer icon list
