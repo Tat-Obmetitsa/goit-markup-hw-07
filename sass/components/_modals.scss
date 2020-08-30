@@ -86,7 +86,7 @@
 	width: 448px;
 	height: 501px;
 	margin: 0;
-	& > h2 {
+	& > b {
 		@include fonts(20px, bold);
 		margin-top: 0px;
 		margin-bottom: 30px;

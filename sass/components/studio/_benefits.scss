@@ -2,7 +2,12 @@
 	@extend .section;
 	&-list {
 		@extend .list;
-		display: flex;
+		@media screen and (min-width: $tablet) {
+			display: flex;
+		}
+		@media screen and (max-width: 1199px) {
+			flex-wrap: wrap;
+		}
 		margin-top: 0px;
 		margin-bottom: 0px;
 		& .header {

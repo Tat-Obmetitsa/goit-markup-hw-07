@@ -4,12 +4,17 @@
 	background-image: linear-gradient(to right, $gradient-hero-color, $gradient-hero-color), url(../images/banner.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 600px;
-	max-width: 1600px;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	height: 400px;
+	width: 100%;
+	padding-top: 118px;
+	padding-bottom: 118px;
 	margin-left: auto;
 	margin-right: auto;
+	@media screen and (min-width: $desktop) {
+		height: 600px;
+		padding-top: 200px;
+		padding-bottom: 200px;
+	  }
 	&-title {
 		@include fonts(44px, 900);
 		margin-top: 0;
